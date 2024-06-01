@@ -1,0 +1,98 @@
+
+body, html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-top: 10px;
+}
+
+.container_voluntariado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border: 2px solid rgb(212, 210, 210);
+    padding: 0px !important; 
+    margin-bottom: 20px;
+}
+
+.top_container {
+    background-color: #FFB4B4;
+    color: white;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.top {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+.seta {
+    color: white;
+    font-size: 35px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+.fundo {
+    background-color: #E7E7E7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.titulo {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    padding: 0 10px 10px 10px;
+    width: 244px;
+}
+
+.button_inscrever {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #FFB4B4;
+    border-radius: 20px;
+    border: none;
+    height: 35px;
+    width: 135px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button_inscrever:hover {
+    background-color: #e08a8a;
+}
+
